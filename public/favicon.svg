@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="OFD Global">
+  <rect width="64" height="64" fill="#07101C"/>
+  <rect x="8" y="46" width="48" height="2" fill="#5EEAD4"/>
+  <text x="32" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#F6F1E7" letter-spacing="1">OFD</text>
+</svg>
