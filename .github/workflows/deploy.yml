@@ -32,8 +32,6 @@ jobs:
 
       - name: Build the site
         run: npm run build
-        env:
-          GITHUB_PAGES: true
 
       - name: Add a fallback for direct page links
         run: cp dist/index.html dist/404.html
