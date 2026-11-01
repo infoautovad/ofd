@@ -3,9 +3,10 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import AppHeader from './components/AppHeader.vue'
 import AppFooter from './components/AppFooter.vue'
+import { asset } from './lib/asset'
 
 const route = useRoute()
-const background = computed(() => route.meta.background || '/images/bg/about.jpg')
+const background = computed(() => asset(route.meta.background || '/images/bg/about.jpg'))
 </script>
 
 <template>

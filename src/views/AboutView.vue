@@ -2,6 +2,7 @@
 import Breadcrumb from '../components/Breadcrumb.vue'
 import ContinueBand from '../components/ContinueBand.vue'
 import { parties, principles } from '../data/content'
+import { asset } from '../lib/asset'
 
 const crumbs = [
   { label: 'Home', to: '/' },
@@ -53,7 +54,7 @@ const crumbs = [
             <span class="leader__spark" aria-hidden="true"></span>
             <div class="leader__portrait">
               <img
-                src="/images/vish-nellore.jpg"
+                :src="asset('/images/vish-nellore.jpg')"
                 alt="Vish Nellore, President of OFD Global."
                 width="188"
                 height="188"

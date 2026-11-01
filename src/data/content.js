@@ -8,6 +8,8 @@
  * construction, or operational.
  */
 
+import { asset } from '../lib/asset'
+
 export const nav = [
   { label: 'About', to: '/about' },
   { label: 'Our focus', to: '/proposals' },
@@ -67,21 +69,21 @@ export const foundations = [
   {
     index: '01',
     title: 'Technology',
-    image: '/images/digital.png',
+    image: asset('/images/digital.png'),
     alt: 'A data hall with rows of server cabinets.',
     text: 'A technology with an owner. Someone who can answer for it, and who keeps that ownership if the work goes further.',
   },
   {
     index: '02',
     title: 'Infrastructure',
-    image: '/images/energy.png',
+    image: asset('/images/energy.png'),
     alt: 'An aerial view of an industrial facility with process units, storage tanks, and pipelines.',
     text: 'A place that can carry the idea: land, power, water, access, and the connections a real development needs.',
   },
   {
     index: '03',
     title: 'Lasting demand',
-    image: '/images/coast.png',
+    image: asset('/images/coast.png'),
     alt: 'An aerial view of a coastline, port, and city at sunrise.',
     text: 'A market, a customer, or an offtake that can last. The commercial case has to be able to stand beside the physical one.',
   },

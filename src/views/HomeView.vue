@@ -1,5 +1,6 @@
 <script setup>
 import { foundations, movements, roles } from '../data/content'
+import { asset } from '../lib/asset'
 </script>
 
 <template>
@@ -7,7 +8,7 @@ import { foundations, movements, roles } from '../data/content'
     <section class="hero" aria-labelledby="home-title">
       <img
         class="hero__media"
-        src="/images/coast.png"
+        :src="asset('/images/coast.png')"
         alt="Aerial view of a coastline, port, and city at sunrise."
         fetchpriority="high"
         decoding="async"
